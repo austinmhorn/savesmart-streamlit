@@ -9,19 +9,19 @@ from modules import get_lesson_reading
 COLS = 8
 columns = st.columns( COLS )
 
-reading = get_lesson_reading('budgeting')
-spliced_reading = reading[0:2]
+reading = get_lesson_reading('debt')
+spliced_reading = reading[2:4]
 
 with columns[0]:
     if st.button('Back'):
-        switch_page("home")
+        switch_page("debt1")
 with columns[7]:
-    if st.button('Next'):
-        switch_page("budgeting2")
+    if st.button('Quiz'):
+        switch_page("debtQ1")
         
 # Header
-st.markdown("#### Lesson 1: Budgeting")
-st.text("- Reading Section 1/2")
+st.markdown("#### Lesson 2: Debt")
+st.text("- Reading Section 2/2")
 st.write('------------------------------------------------------------------------------------------')
 
 for paragraph in spliced_reading:

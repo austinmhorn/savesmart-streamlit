@@ -9,7 +9,7 @@ from modules import get_lesson_reading
 COLS = 8
 columns = st.columns( COLS )
 
-reading = get_lesson_reading('budgeting')
+reading = get_lesson_reading('debt')
 spliced_reading = reading[0:2]
 
 with columns[0]:
@@ -17,10 +17,10 @@ with columns[0]:
         switch_page("home")
 with columns[7]:
     if st.button('Next'):
-        switch_page("budgeting2")
+        switch_page("debt2")
         
 # Header
-st.markdown("#### Lesson 1: Budgeting")
+st.markdown("#### Lesson 2: Debt")
 st.text("- Reading Section 1/2")
 st.write('------------------------------------------------------------------------------------------')
 

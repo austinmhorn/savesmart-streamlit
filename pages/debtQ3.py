@@ -10,21 +10,20 @@ COLS = 8
 columns = st.columns( COLS )
 result = ""
 
-quiz = get_lesson_quiz('budgeting')
+quiz = get_lesson_quiz('debt')
 question = quiz['1']['question']
 ans = quiz['1']['answers']
 
 with columns[0]:
     if st.button('Back'):
-        switch_page("budgeting2")
+        switch_page("debtQ2")
 with columns[7]:
-    if st.button('Next', disabled=False):
-        switch_page("budgetingQ2")
-        
+    if st.button('Finish', disabled=st.session_state.disabled):
+        switch_page("home") 
 
 # Header
-st.markdown("#### Quiz - Lesson 1: Budgeting")
-st.text("- Question 1/3")
+st.markdown("#### Quiz - Lesson 2: Debt")
+st.text("- Question 3/3")
 st.write('------------------------------------------------------------------------------------------')
 
 answer = st.radio(
@@ -37,3 +36,4 @@ if st.button('Submit'):
         st.subheader(':green[Correct!]')
     else:
         st.subheader(':red[Incorrect.]')
+    

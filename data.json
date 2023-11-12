@@ -10,15 +10,15 @@
             "quiz": {
                 "1": { 
                     "question": "What is the primary purpose of creating a budget?", 
-                    "answers": [ "The primary purpose of creating a budget is to plan and track spending.", "Answer #2", "Answer #3", "Answer #4" ]
+                    "answers": [ "The primary purpose of creating a budget is to plan and track spending", "To impress others with your financial prowess", "To accumulate as much debt as possible", "To confuse yourself with complex financial calculations" ]
                 },
                 "2": { 
                     "question": "Why is making a budget important?", 
-                    "answers": [ "Making a budget is crucial with a fixed monthly income because it helps determine if there's enough money to cover essential living expenses and be prepared for both planned and unplanned costs.", "Answer #2", "Answer #3", "Answer #4" ]
+                    "answers": [ "Making a budget is crucial with a fixed monthly income because it helps determine if there's enough money to cover essential living expenses and be prepared for both planned and unplanned costs.", "Because budgets are a trendy way to show off your financial status on social media", "To waste time on tedious calculations and paperwork, adding unnecessary stress to your life", "Making a budget is important because it magically increases your income and eliminates all financial challenges" ]
                 },
                 "3": { 
                     "question": "What is the first step recommended for creating a small and effective budget?", 
-                    "answers": [ "Determine your income.", "Answer #2", "Answer #3", "Answer #4" ]
+                    "answers": [ "Determine your income", "Make a list of your expenses", "Subtract total expenses from total income", "Allocate surplus money to savings" ]
                 }
             }
         },
@@ -32,15 +32,15 @@
             "quiz": {
                 "1": { 
                     "question": "How can you succinctly define debt?", 
-                    "answers": [ "Debt is an obligation to repay borrowed money, involving a promise to return the principal amount with interest over a specified period.", "Answer #2", "Answer #3", "Answer #4" ]
+                    "answers": [ "Debt is an obligation to repay borrowed money, involving a promise to return the principal amount with interest over a specified period.", "Debt is the feeling of joy and fulfillment one experiences when spending beyond their means", "Debt is the feeling of joy and fulfillment one experiences when spending beyond their means", "Debt is a synonym for unlimited wealth and prosperity" ]
                 },
                 "2": { 
                     "question": "What distinguishes mortgages from credit cards in the realm of debt?", 
-                    "answers": [ "Mortgages are loans specifically for real estate purchases, with the property serving as collateral, while credit cards represent revolving debt with periodic repayments and a set borrowing limit.", "Answer #2", "Answer #3", "Answer #4" ]
+                    "answers": [ "Mortgages are loans specifically for real estate purchases, with the property serving as collateral, while credit cards represent revolving debt with periodic repayments and a set borrowing limit.", "Mortgages are magical contracts that grant homeowners the ability to live in their dream house for free", "Credit cards are exclusive debt instruments for the elite, while mortgages are for the common folks", "The main difference is that mortgages are paid in Monopoly money, whereas credit cards use real currency" ]
                 },
                 "3": { 
                     "question": "What are examples of common forms of debt, as mentioned in the reading?", 
-                    "answers": [ "Loans for education and mortgages for real estate purchases.", "Answer #2", "Answer #3", "Answer #4" ]
+                    "answers": [ "Loans for education and mortgages for real estate purchases.", "Collecting rare stamps and coins is a common form of debt", "Owning a pet hamster and providing it with luxury accommodations is a typical form of debt", "Participating in extreme sports and adventures is a widely accepted form of debt according to the reading" ]
                 }
             }
         },
