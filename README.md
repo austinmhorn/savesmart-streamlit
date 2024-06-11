@@ -4,7 +4,7 @@ Build for the HackUNT 2023 [Fidelity Investments](https://www.fidelity.com) chal
 
 Download Streamlit
 
-    pip install streamlit
+    pipx install streamlit
 
 Run SaveSmart
 
